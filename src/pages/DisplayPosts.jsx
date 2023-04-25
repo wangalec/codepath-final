@@ -21,7 +21,6 @@ const DisplayPosts = () => {
                 posts.map((post) => 
                     <>
                         <h2> {post.title} </h2>
-                        <h3> Created at: {post.created_at} | Votes: {post.votes} </h3>
                         <p> {post.description} </p>
                         {/* <Link to={`/edit/${post.id}`}> Edit Player</Link> */}
                     </>
